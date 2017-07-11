@@ -1,0 +1,10 @@
+#header-container {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p #header-logo {
+  color: MediumAquamarine;
+}
