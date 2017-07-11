@@ -1,10 +1,26 @@
-#header-container {
+.header-container {
+  align-items: center;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
 }
 
-p #header-logo {
+.logo-flex {
   color: MediumAquamarine;
+  display: inline-flex;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.space-around {
+  justify-content: space-around;
 }
