@@ -1,5 +1,6 @@
 .header-container {
   align-items: center;
+  border-bottom: 1px solid black;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
