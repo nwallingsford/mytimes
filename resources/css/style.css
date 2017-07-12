@@ -69,16 +69,29 @@ nav span {
   border: solid 1px black;
 }
 
-.main-story h1{
+.main-story h1 {
   border: solid 1px black;
+  background: url("../images/img-story-main.png");
 }
 
 .story-1, .story-2 {
   border: solid 2px black;
 }
 
-.photo-1, .photo-2 {
+.photo-1, .photo-2, .photo-3 {
   border: solid 1px black;
+}
+
+.photo-1 {
+  background: url("../images/img-story-2.png");
+}
+
+.photo-2 {
+  background: url("../images/img-story-3.png");
+}
+
+.photo-3 {
+  background: url("../images/img-story-1.png");
 }
 
 h2.uppercase {
