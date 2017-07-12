@@ -53,6 +53,7 @@ nav span {
 .column.large {
   width: 630px;
   border: solid 1px black;
+  flex-direction: column;
 }
 
 .column.medium {
@@ -62,5 +63,13 @@ nav span {
 
 .column.small {
   width: 240px;
+  border: solid 1px black;
+}
+
+.main-story h1{
+  border: solid 1px black;
+}
+
+.story-1 {
   border: solid 1px black;
 }
