@@ -1,6 +1,7 @@
 header {
   align-items: center;
   border: 1px solid black;
+  background: white;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -8,6 +9,7 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 
 .logo {
@@ -42,7 +44,7 @@ nav span {
 .main-container {
   display: flex;
   border: solid 1px black;
-  height: 500px;
+  height: 650px;
   padding-top: 100px;
 }
 
@@ -70,6 +72,10 @@ nav span {
   border: solid 1px black;
 }
 
-.story-1 {
+.story-1, .story-2 {
+  border: solid 2px black;
+}
+
+.photo-1, .photo-2 {
   border: solid 1px black;
 }
