@@ -1,27 +1,29 @@
-.header-container {
+header {
   align-items: center;
   border-bottom: 1px solid black;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
   width: 100%;
 }
 
-.logo-flex {
-  color: MediumAquamarine;
-  display: inline-flex;
-}
-
-.nav-flex {
+.logo {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
 }
 
-.nav-item {
-  display: inline-block;
+.logo img {
+  padding-left: 10px;
 }
 
-.space-around {
-  justify-content: space-around;
+header span {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+nav a {
+  color: black;
 }
