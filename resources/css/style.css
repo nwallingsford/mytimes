@@ -1,6 +1,6 @@
 header {
   align-items: center;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -14,6 +14,7 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
+  border: solid 1px black;
 }
 
 .logo img {
@@ -31,8 +32,35 @@ nav a {
 
 nav {
   padding-right: 40px;
+  border: solid 1px black;
 }
 
 nav span {
   padding: 0px 15px;
+}
+
+.main-container {
+  display: flex;
+  border: solid 1px black;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.column {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  border: solid 1px black;
+}
+
+.column.medium {
+  width: 300px;
+  border: solid 1px black;
+}
+
+.column.small {
+  width: 240px;
+  border: solid 1px black;
 }
