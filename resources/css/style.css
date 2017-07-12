@@ -72,6 +72,11 @@ nav span {
 .main-story h1 {
   border: solid 1px black;
   background: url("../images/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
 }
 
 .story-1, .story-2 {
@@ -84,6 +89,13 @@ nav span {
 
 .photo-1 {
   background: url("../images/img-story-2.png");
+}
+
+.photo-1, .photo-2, .photo-3 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .photo-2 {
@@ -100,4 +112,10 @@ h2.uppercase {
 
 .news-bites {
   border: solid 1px black;
+}
+
+.main-story, .story-1, .story-2 p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
