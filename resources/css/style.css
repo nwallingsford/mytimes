@@ -42,9 +42,10 @@ nav span {
 }
 
 .main-container {
-  display: flex;
   border: solid 1px black;
+  display: flex;
   height: 650px;
+  justify-content: space-around;
   padding-top: 100px;
 }
 
