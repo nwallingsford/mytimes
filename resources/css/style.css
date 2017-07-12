@@ -50,12 +50,12 @@ nav span {
 
 .column {
   display: flex;
+  flex-direction: column;
 }
 
 .column.large {
   width: 630px;
   border: solid 1px black;
-  flex-direction: column;
 }
 
 .column.medium {
@@ -77,5 +77,13 @@ nav span {
 }
 
 .photo-1, .photo-2 {
+  border: solid 1px black;
+}
+
+h2.uppercase {
+  text-transform: uppercase;
+}
+
+.news-bites {
   border: solid 1px black;
 }
