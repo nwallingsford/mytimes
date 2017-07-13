@@ -1,6 +1,6 @@
 header {
   align-items: center;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background: white;
   display: flex;
   font-family: Verdana;
@@ -17,7 +17,6 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
-  border: solid 1px black;
 }
 
 .logo img {
@@ -35,7 +34,6 @@ nav a {
 
 nav {
   padding-right: 40px;
-  border: solid 1px black;
 }
 
 nav span {
@@ -43,7 +41,6 @@ nav span {
 }
 
 .main-container {
-  border: solid 1px black;
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
@@ -149,16 +146,43 @@ h2.uppercase {
   flex-direction: column;
 }
 
-.footer {
+footer {
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.footer-title {
+.footer-title span {
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+}
+
+.footer-main {
+  margin-bottom: 10px;
+}
+
+.footer-main nav {
+  display: inline-block;
+  padding: 0px;
+}
+
+.footer-title {
+  border-right: solid 2px white;
+  padding-right: 20px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
 }
