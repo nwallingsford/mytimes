@@ -82,14 +82,6 @@ nav span {
   display: flex;
 }
 
-.story-1, .story-2 {
-  border: solid 2px black;
-}
-
-.photo-1, .photo-2, .photo-3 {
-  border: solid 1px black;
-}
-
 .photo-1 {
   background: url("../images/img-story-2.png");
   height: 300px;
@@ -117,7 +109,6 @@ h2.uppercase {
 }
 
 .news-bites {
-  border: solid 1px black;
 }
 
 .main-story, .story-1, .story-2 p {
